@@ -1,0 +1,20 @@
+.card-addons {
+    padding: 1.2rem;
+}
+
+.listitem {
+    list-style: none;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid orange;
+    padding: 10px;
+    margin-left: -2.5rem;
+    margin-bottom: 10px;
+}
+
+.no-input {
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}

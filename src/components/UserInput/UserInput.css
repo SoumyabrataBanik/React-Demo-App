@@ -1,0 +1,75 @@
+.card-addons {
+    padding: 1.2rem;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.username-label {
+    font-weight: 700;
+    color: black;
+}
+
+.username-input {
+    border: 1px solid #feb8b8;
+    padding: 9px;
+    font-size: 13px;
+    outline: none;
+}
+
+.username-input:hover {
+    border: 1px solid red;
+}
+
+.username-input:focus {
+    outline: 1.5px solid red;
+}
+
+
+.age {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.age-label {
+    font-weight: 700;
+    color: black;
+}
+
+.age-input {
+    border: 1px solid #feb8b8;
+    padding: 9px;
+    font-size: 13px;
+    outline: none;
+}
+
+.age-input:hover {
+    border: 1px solid red;
+}
+
+.age-input:focus {
+    outline: 1.5px solid red;
+}
+
+.btn {
+    margin-top: 1.5rem;
+    width: 10rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    background: transparent;
+    border: 1.5px solid red;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
